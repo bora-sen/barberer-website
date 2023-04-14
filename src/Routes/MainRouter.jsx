@@ -8,6 +8,7 @@ function MainRouter() {
     <Routes>
       <Route path="/" element={<Pages.Home />} />
       <Route path="/admin-login" element={<Pages.AdminLogin />} />
+      <Route path="/booking" element={<Pages.CreateBooking />} />
       <Route
         path="/admin"
         element={
