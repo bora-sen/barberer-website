@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react"
+import { MainLayout } from "../../Layouts"
+import * as Section from "./Components"
 
 function CreateBooking() {
   return (
-    <div>CreateBooking</div>
+    <MainLayout>
+      <Section.Booking />
+    </MainLayout>
   )
 }
 
